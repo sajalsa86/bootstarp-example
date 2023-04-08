@@ -30,6 +30,7 @@
         margin-top: 80px;
         margin-left: 50px;
         margin-right: 80px;
+        padding-bottom: 60px;
     }
 
     .aside-info-container h1 {
@@ -44,14 +45,14 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-    .aside-info-container {
-        padding-left: 10px;
-        padding-right: 10px;
+    .aside-margin {
+        padding-bottom: 50px;
+        text-align: center;
+        padding-top: 40px;
     }
 
     .aside-img-container {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .aside-info-container h1 {
@@ -60,6 +61,10 @@
 
     .aside-info-container p {
         font-size: 1.3rem;
+    }
+
+    .buttom-section {
+        text-align: center;
     }
 }
 
